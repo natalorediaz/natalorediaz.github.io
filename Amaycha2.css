@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    padding: 2rem 2rem 2rem 2rem;
+}
+/*header*/
+a {
+    color:#fed049; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+/*Logo*/
+h2 {
+    font-family: Cedarville Cursive;
+    font-size: 60px;
+    color:#ABAAAB;
+    line-height: 137px;
+    font-style : normal;
+    font-weight: normal;
+}
+nav {
+    color: #ABAAAB;
+    padding: 1vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul#main-menu {
+    list-style: none;
+    display: flex;
+}
+.menuitem {
+    padding: 1vw;
+}
+.menuitem:hover {
+    opacity: 0.8;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}  
+
+/*Amaicha Deco Titulo principal*/ 
+h1 {
+    font-family: Cedarville Cursive;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 86px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    z-index: 1;
+}
+h3 {
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 86px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    z-index: 1; 
+}
+#hoja {
+    color: #FFFFFF ;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px black;
+    z-index: 1;
+}
+img#fondosucus {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 94px;
+    padding: 2vw;
+    opacity: 0.6;
+}
+#seccion1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    border-width: thick;
+    border-style:dashed;
+    border-color: #d8ebe4;
+    padding: 5% 0%;
+}
+#Leyenda {
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 81px;
+    text-align: center;
+}
+#Firma {
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 81px;
+    text-align: center;
+}
+i {
+    color: grey;
+    font-size: 40px;
+}
+article#sobremi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20% 0%;
+}
+#sobremitexto {
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 5%;
+   
+}
+.sobremiimg {
+    width: 40%;
+    box-shadow: 3px 3px 5px 3px  #999;
+    border-radius: 8px;
+}
+#modelos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fed049;
+    padding: 5%
+}
+
+#Modelos2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fed049;
+    padding: 5%;
+}
+
+.maceta {
+    width:80%;
+    padding-left: %;
+    align-items: center;
+    border-width: thick;
+    border-style:dashed;
+    border-color: #d8ebe4;
+}
+#contactos {
+    text-align: center;
+    padding: 10% 0%
+}
+#bordeform {
+    border-width: thick;
+    border-style:dashed;
+    border-color: #d8ebe4;
+    padding: 5% 0%;
+}
+h4 {
+    color: #ABAAAB;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    text-align: center;
+
+}
+input.texto {
+    width:30%;
+    height: 25px;
+    border-radius: 4px;
+}
+#button {
+    width: 30%;
+    height: 25px;
+    border-radius: 4px;
+}
+#button:hover {
+    background-color:  #fed049;
+    color: #d8ebe4;
+}
+textarea {
+    width: 30%;
+    height: 100px;
+}
+#mapa {
+    padding: 5% 0%;
+    width: 100%;
+}
+footer {
+    display: flex;
+    position: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;  
+    height: 80px;
+    background-color: cadetblue;
+    padding: 5%;
+    margin: 0%;
+}
+footer i {
+    color: #fed049;
+    font-size: 40px;
+}
+@media (max-width: 700px) {
+    main {
+        height: 50vh;
+    }
+    h1 {
+        font-size: 80px;
+        height: 5px;
+        margin: 0;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    #hoja {
+        font-size: 50px;
+        margin: 0;
+    }
+    img#fondosucus {
+        height: 45vh;
+           }
+    #Leyenda {
+        font-size: 25px;
+    }
+   #Firma {
+       font-size: 15px;
+   } 
+   article#sobremi {
+    flex-direction: column;
+}
+   #sobremitexto {
+       font-size: 10px;
+   }
+   h4 {
+       font-size: 18px;
+   }
+   i {
+       font-size: 20px;
+   }
+}
+@media (max-width: 320px) {
+   header {
+       padding: 0px;
+       height: 2px;
+   }
+    main {
+        height: 25vh;
+     }
+    h1 {
+        font-size: 30px;
+        top: 0px;
+    }
+    h3 {
+        font-size: 8px;
+        top: 0px;
+    }
+    img#fondosucus {
+        padding: 0px;
+        height: 25%;
+        top: 10vw;
+            }
+    h2 {
+        font-size: 25px;
+        padding: 0px;
+        top: 0px;
+    }
+    #hoja {
+        font-size: 25px;
+    }
+    #Leyenda {
+        font-size: 15px;
+    }
+    
+#seccion1 {
+    height: 5%;
+}
+
+   #Firma {
+       font-size: 8px;
+   } 
+   article#sobremi {
+       flex-direction: column;
+   }
+   #sobremitexto {
+       font-size: 8px;
+   }
+   h4 {
+       font-size: 10px;
+   }
+   i {
+       font-size: 10px;
+   }
+   article#sobremi {
+    flex-direction: column;
+    }
+    ul#main-menu {
+        display: none;
+    }
+    #modelos {
+        flex-direction: column;
+    }
+    #Modelos2 {
+        flex-direction: column;
+    }
+}
+
+
+
