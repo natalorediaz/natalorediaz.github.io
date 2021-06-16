@@ -45,7 +45,7 @@ ul#main-menu {
 
 /*Main*/
 main {
-    background: url(img/otras\ sucus.jpg);
+    background: url("img/otras\ sucus.JPG");
     background-color: rgb(100,100,100);
     background-blend-mode: soft-light;
     background-position: center;
