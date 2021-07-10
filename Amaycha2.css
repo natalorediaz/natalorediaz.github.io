@@ -194,6 +194,7 @@ h4 {
 
 }
 input.texto {
+   margin: 1%;
     width: 50%;
     height: 30px;
     border-radius: 4px;
@@ -214,6 +215,14 @@ textarea {
 #mapa {
     padding: 5% 0%;
     width: 100%;
+}
+.irarriba {
+    margin: 10px;
+    font-size: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
 }
 footer {
     display: flex;
@@ -331,6 +340,7 @@ footer i {
     }
     #Leyenda {
         font-size: 35px;
+        text-align: center;
     }
     #Firma {
         font-size: 25px;
@@ -343,10 +353,10 @@ footer i {
     }    
     
     body.mobile-menu-active Header #open-mobile-menu {
-        display: block;
+        display: none;
     }
     body.mobile-menu-active Header #close-mobile-menu {
-        display: none;
+        display: block;
     }
     body.mobile-menu-active #main-menu {
         display: flex;
